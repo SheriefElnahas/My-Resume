@@ -1,0 +1,370 @@
+
+
+/*******************************************************************  995  *************************************/
+/* from 950 to 995 */
+@media only screen and (max-width: 995px) {
+    .container {
+        max-width:1100px;
+    }
+    #content {
+        text-align:center;
+        color:#fff;
+        margin-top:100px;
+    }
+
+    .projects-sections {
+        max-width:800px;
+    }
+    .photo {
+        width:200px;
+        height:200px;
+        border-radius:50%;
+        margin-bottom:10px;
+        display:inline-block;
+    }
+    
+}
+
+/*******************************************************************  950  *************************************/
+/* from 885 to 950 */
+@media only screen and (max-width:950px) {
+
+    .projects-header{
+        padding:2rem .5rem;
+    }
+    .projects-header ul li {
+        font-size:20px;
+        padding:1rem;
+    }
+}
+/*******************************************************************  885  *************************************/
+/* From 850 to 885 */
+@media only screen and (max-width:885px) {
+
+    
+    .my-img {
+        width:150px;
+        height:150px;
+        border-radius:50%;
+        margin:0 auto;
+        display:block;
+        margin-bottom:30px;
+    }
+    .content h2 {
+        text-align:center;
+        margin-bottom:50px;
+        text-transform: uppercase;
+        margin-top:50px;
+        font-weight:100;
+    }
+    
+    .content p {
+        font-size:18px;
+        line-height:1.8;
+        word-spacing:4px;
+        color:#fff;
+        letter-spacing:1px;
+    
+        margin:0 auto 2.5rem auto;
+    }
+
+}
+/*******************************************************************  860 *************************************/
+/* from 755 to 860 */
+@media only screen and (max-width: 860px) {
+    .course-container {
+        width:700px;
+    }
+    
+    .course-img {
+    width:250px;
+    height:250px;
+    margin:50px;
+    }
+
+    .course-link {
+    padding:1rem;
+    font-size:14px;
+    text-decoration:none;
+    margin-right:20px;
+    }
+
+      .photo-b {
+      margin-left:100px;
+      width:200px;
+      height:200px;
+  }
+}
+
+
+/*******************************************************************  755  *************************************/
+/* From 550 to 755 */
+@media only screen and (max-width: 755px) {
+  .links a {
+        padding:0;
+    display:block;
+    margin-top:0;
+  }
+  
+  .sticky .main-nav { margin-top:10px;}
+  .main-nav {display:none;} 
+  .mobile-nav-icon {
+      display:inline-block;
+      margin-top:20px;
+      margin-right:20px;
+    }
+
+  .sticky .main-nav li a:link, 
+  .sticky .main-nav li a:visited { padding:3px 0; }
+  .sticky .mobile-nav-icon  ion-icon{color:#555;}
+  .sticky .mobile-nav-icon  ion-icon{margin-top:30px;}
+  
+  .projects-sections {
+      max-width:900px;
+    
+  }
+  .container {
+      max-width:700px;
+  }
+  .course-link {
+      margin-left:50px;
+  }
+  .course-container {
+    width:700px;
+}
+
+    .course-img {
+        width:250px;
+        height:250px;
+        margin:50px;
+    }
+
+    .course-link {
+        padding:1rem;
+        font-size:12px;
+        text-decoration:none;
+        margin-right:20px;
+    }
+
+}
+
+
+
+/*******************************************************************  710  *************************************/
+/* from 550px to 710  */
+
+@media only screen and (max-width: 710px) {
+    .projects-header ul li {
+        display:none;
+     }
+}
+
+@media only screen and (max-width: 660px) {
+    .projects-sections  {
+        text-align:center;
+    }
+    .photo {
+        width:300px;
+    }
+    .content {
+        padding-top:100px;
+        color:#fff;
+        max-width:400px;
+        margin:0 auto;
+    }
+
+    .course-img {
+    
+        width:400px;
+    }
+    #header {
+        height:60vh;
+    }
+    .photo-b {
+        margin-left:40px;
+        width:250px;
+        height:250px;
+    }
+    .course-link {
+        text-align:center;
+    }
+       
+}   
+
+/*******************************************************************  670  *************************************/
+/* From 568 to 670 */
+@media only screen and (max-width: 670px) {
+    #header {
+        height:100vh;
+    }
+    
+    .mobile-nav-icon {
+        margin-top:30px;
+    }
+    
+
+}
+
+/*******************************************************************  568  *************************************/
+/* from 415px to 568  */
+
+@media only screen and (max-width: 568px) {
+        .mobile-nav-icon {
+            margin-top:30px;
+        }
+
+        #header {
+            height:100vh;
+        }
+        .sticky .mobile-nav-icon {
+            margin-top:-10px;
+        }
+
+        .course-img {
+            width:300px;
+            height:auto;
+            margin-left:110px;
+        }
+        .course-link {
+            width:50%;
+            margin-left:80px;
+        }
+        .content p {
+            margin:0 auto;
+            font-size:1.5rem;
+            width:100%;
+        }
+        #about {
+            padding:0rem;
+        }
+       
+}
+
+
+/*******************************************************************  370  *************************************/
+/* From 0 to 415px */
+@media only screen and (max-width: 415px) {
+    body {
+        font-size:20px;
+    }
+    #content {
+        text-align:center;
+        color:#fff;
+        margin-top:200px;
+    }
+    #content h1 {
+        padding:0 5%;
+    }
+   #header {
+       width:110vh;
+       height:140vh;
+   }
+ 
+   .mobile-nav-icon {
+    margin-right:30px;
+    margin-top:30px;
+    font-size:20px;
+    display:inline-block;
+    color:black;
+}
+
+.logo .logo-img {
+    width:110px;
+    height:110px;
+    margin-right:10px;
+    margin-top:30px;
+    margin-left:20px;
+}
+    .logo a {
+    display:none;
+    }
+
+   .projects-header {
+       width:110vh;
+   }
+
+    .sticky ul li .logo-img {
+        width:50px;
+        height:50px;
+        margin-top:-40px;
+    }
+
+    .sticky .mobile-nav-icon {
+        margin-top:-12px;
+        margin-right:100px;
+        color:#333;
+    }
+    .sticky ul li   {
+        display:block;
+    } 
+    .photo {
+      margin-left:180px;
+    }
+    .projects-sections .row a, 
+    .projects-sections .row p {
+       margin-right:-320px;
+    }
+  .projects-header2 {
+      width:110vh;
+  }
+  .photo-b {
+      margin-left:180px;
+      width:300px;
+      height:300px;
+  }
+
+  .course-img {
+      margin-left:150px;
+  }
+  .course-link {
+      width:70%;
+      text-align:center;
+      margin-left:100px;
+  }
+
+  .skills-progress  {
+      width:110vh;
+  }
+
+  #about {
+      width:110vh;
+      padding:1rem;
+  }
+ #about .content {
+    max-width:1000px;
+ }
+
+ .content p {
+     margin:0 auto;
+     font-size:2rem;
+     width:90%;
+ }
+ .content h2 {
+     margin-bottom:5px;
+ }
+
+    #skills {
+        width:110vh;
+    }
+ .my-img {
+    width:200px;
+    height:200px;
+    border-radius:50%;
+
+ }
+
+ #footer {
+     width:110vh;
+ }
+
+  
+ }
+
+
+
+
+
+
+
+
+
